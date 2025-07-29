@@ -22,18 +22,12 @@ CSS3 (Google-like UI + custom styling)
 JavaScript (Vanilla) for search logic and suggestions
 
 # Project Structure
-pgsql
-Copy
-Edit
-.
-├── index.html
-├── styles.css
-├── script.js
-├── assets/
-│   ├── Gaurang Srivastava - Resume.pdf
-│   ├── user-manual.pdf
-│   └── images/
-│       └── Comic-strip.jpg
+index.html
+styles.css
+script.js
+assets/Gaurang Srivastava - Resume.pdf
+assets/user-manual.pdf
+images/Comic-strip.jpg
 # Setup & Usage
 Clone the repository:
 Open the project:
