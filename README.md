@@ -23,10 +23,15 @@ JavaScript (Vanilla) for search logic and suggestions
 
 # Project Structure
 index.html
+
 styles.css
+
 script.js
+
 assets/Gaurang Srivastava - Resume.pdf
+
 assets/user-manual.pdf
+
 images/Comic-strip.jpg
 # Setup & Usage
 Clone the repository:
