@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaurang Search</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.cdnfonts.com/css/product-sans" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="left-nav">
+            <a href="https://www.linkedin.com/in/gaurangs26/" target="_blank">LinkedIn</a>
+            <a href="https://github.com/gaurang-codes" target="_blank">GitHub</a>
+        </nav>
+        <nav class="right-nav">
+            <a href="mailto:gaurangsrivastava2006@gmail.com">Gmail</a>
+            <a href="https://www.instagram.com/gaurangs26/">Instagram</a>
+            <div onclick="window.location.href='https://gaurang-codes.vercel.app/'" class="profile-circle">GS</div>
+        </nav>
+    </header>
+
+    <!-- Main Search -->
+    <main>
+        <h1 class="logo">
+            <span class="g">G</span><span class="o">a</span><span class="o2">u</span><span class="g">r</span><span class="o">a</span><span class="l">n</span><span class="e">g</span>
+        </h1>
+
+        <div class="search-box">
+            <input type="text" id="search-box" placeholder="Search for My Pitch, User Manual, Comic Strip...">
+            <div id="suggestions"></div>
+            <div class="search-buttons">
+                <button id="search-btn" type="button">Google Search</button>
+                <a id="lucky-btn" href="/assets/Gaurang Srivastava - Resume.pdf" download>I'm Feeling Lucky</a>
+            </div>
+        </div>
+    </main>
+
+   <!-- Results Section -->
+<section id="results">
+    <div id="elevator" class="hidden result-card">
+        <h2>🚀 My Pitch</h2>
+        
+        <p>My name is <b>Gaurang Srivastava</b>, a passionate Computer Science student with a deep interest in AI, technology, and community-driven learning. I am excited to apply for the Google Student Ambassador program powered by Gemini, as it aligns perfectly with my goal of leveraging cutting-edge tools to create meaningful impact.</p>
+
+<p>With a strong foundation in HTML, CSS, JavaScript, Python, and problem-solving, I have consistently explored ways to integrate technology into practical solutions. My curiosity for AI-driven tools like Google Gemini motivates me to not only learn but also help others harness these innovations effectively. I believe this program will enable me to connect my technical skills with a platform that transforms how students learn, create, and collaborate.</p>
+
+<p>As a <b>Google Student Ambassador</b>, I aim to <b>bridge the gap between Gemini and my campus community</b> by organizing workshops, building real-world demos, and showcasing how AI can streamline workflows and spark creativity. I want to foster a space where students feel empowered to experiment, innovate, and grow with Google’s ecosystem of tools.</p>
+
+<p>Joining this program would allow me to contribute to my peers’ growth, represent Google’s mission, and help students embrace AI responsibly. I am ready to lead, inspire, and turn technology—especially Gemini—into a driving force for student success.</p>
+<p><i>"Give me the platform, and I’ll turn every line of code, every event, and every collaboration into a step forward for our community—powered by Google and driven by passion."</i></p>
+    </div>
+
+    <div id="manual" class="hidden result-card">
+        <h2>📘 User Manual</h2>
+        <p>Your quick guide to understanding how I work, collaborate, and innovate.</p>
+        <a href="/assets/User-Manual.pdf" download class="download-link">📥 Download Full Manual</a>
+    </div>
+
+    <div id="comic" class="hidden result-card">
+        <h2>🎨 Comic Strip</h2>
+        <img src="/images/Comic-strip.jpg" alt="Comic Resume" class="comic">
+    </div>
+
+    <div id="error" class="hidden result-card">
+        <h2>❌ 404: Idea Not Found!</h2>
+        <p>Try: "My Pitch", "User Manual", or "Comic Strip".</p>
+    </div>
+</section>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-left">
+            <a href="#">Advertising</a>
+            <a href="#">Business</a>
+            <a href="#">How Search works</a>
+        </div>
+        <div class="footer-right">
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Settings</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

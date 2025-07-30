@@ -1,0 +1,247 @@
+/* General Page Setup */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: white;
+    color: #202124;
+}
+
+/* Header Navigation */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 14px;
+}
+
+.left-nav a,
+.right-nav a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #202124;
+}
+
+.right-nav {
+    display: flex;
+    align-items: center;
+}
+
+.profile-circle {
+    background: linear-gradient(45deg, #4285F4, #EA4335, #FBBC05, #34A853);
+    color: white;
+    font-weight: bold;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.profile-circle a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Product Sans', sans-serif;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+}
+/* Google Logo */
+.logo {
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: 'Product Sans', sans-serif;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.g { color: #4285F4; }
+.o { color: #EA4335; }
+.o2 { color: #FBBC05; }
+.l { color: #34A853; }
+.e { color: #4285F4; }
+
+/* Search Box */
+.search-box {
+    position: relative;
+    width: 500px;
+    margin: 20px auto;
+}
+
+.search-box input {
+    width: 100%;
+    padding: 12px 40px;
+    border: 1px solid #ddd;
+    border-radius: 24px;
+    outline: none;
+    font-size: 16px;
+}
+
+/* Suggestions Dropdown */
+#suggestions {
+    position: absolute;
+    top: 45px;
+    width: 100%;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: none;
+    text-align: left;
+    z-index: 999;
+}
+
+.suggestion-item {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.suggestion-item:hover {
+    background: #f1f1f1;
+}
+
+/* Search Buttons */
+.search-buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.search-buttons button,
+.search-buttons a {
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #202124;
+    cursor: pointer;
+}
+
+.search-buttons button:hover,
+.search-buttons a:hover {
+    border: 1px solid #c6c6c6;
+    background-color: #f1f3f4;
+}
+
+/* Results Section */
+#results {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#results h2 {
+    margin-bottom: 10px;
+}
+
+#results p {
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 16px;
+}
+
+#results img.comic {
+    max-width: 400px;
+    margin-top: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+
+
+/* Hidden Class */
+.hidden {
+    display: none;
+}
+
+/* Footer */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 10px 30px;
+    font-size: 14px;
+    border-top: 1px solid #ddd;
+}
+
+.footer-left a,
+.footer-right a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #202124;
+}
+
+/* Results Section */
+#results {
+    margin-top: 40px;
+    text-align: center;
+}
+
+/* Result Card Container */
+.result-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    width: 50%;
+    text-align: left;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.result-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.result-card h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #1a0dab;
+}
+
+.result-card p {
+    font-size: 1rem;
+    color: #4d5156;
+    line-height: 1.6;
+}
+
+/* Comic Image */
+.result-card img.comic {
+    max-width: 100%;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+
+/* Download Link Button */
+.download-link {
+    display: inline-block;
+    background: #f8f9fa;
+    border: 1px solid #dadce0;
+    border-radius: 4px;
+    padding: 8px 12px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #202124;
+}
+
+.download-link:hover {
+    background: #f1f3f4;
+    border: 1px solid #c6c6c6;
+}
+
+/* Hidden Class */
+.hidden {
+    display: none;
+}
